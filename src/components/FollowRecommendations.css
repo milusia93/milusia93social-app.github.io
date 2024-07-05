@@ -1,0 +1,23 @@
+.followRecommendations {
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: space-around   
+}
+
+.followRecommendations .recommendation {   
+    padding: 15px;
+}
+
+.followRecommendations .recommendation img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.followRecommendations .recommendation h3 {
+    margin: 5px;
+}

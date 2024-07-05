@@ -1,0 +1,74 @@
+
+
+.post {
+    display: flex;
+    border: 1px solid black;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.post > * {
+    padding: 5px;
+}
+
+.post .avatar img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.post .postData {
+    width: 100%;
+}
+
+.post .postData .postMeta {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.post .postData .postMeta .author,
+.post .postData .postMeta .date{
+    font-weight: 700;
+}
+
+.post .postData .postContent{
+    padding: 5px;
+    text-align: left;
+}
+
+.post .postData .likes {
+    text-align: right;
+    
+}
+.post .postData .likes button {
+    margin-right: 5px;
+}
+
+.post .postData .likes .likesCount {
+    display: inline-block;
+    padding: 5px;
+    min-width: 40px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 50%;
+
+}
+.deleteConfirmation {
+    position: fixed;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.deleteConfirmation .yes {
+    background-color: green;
+}
+
+.deleteConfirmation .no {
+    background-color: red;
+}

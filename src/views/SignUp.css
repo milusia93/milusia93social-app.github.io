@@ -1,0 +1,31 @@
+.signUp form {
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUp form input {    
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: block;
+}
+
+.signUp .btn {
+    margin-top: 10px;
+    display: inline-block
+}
+
+.signUp .btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+/* .signUp a {
+    margin-top: 10px;
+} */

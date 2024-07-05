@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+.postList {
+    max-width: 600px;
+    margin: auto;
+}
+
+.loadMore {
+    margin: 20px 0;
+}
